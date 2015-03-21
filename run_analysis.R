@@ -18,9 +18,9 @@ library(dplyr)
 # Download and unzip file to current working directory.
 #########################################################################################################
 
-#download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ", destfile = "getdata-projectfiles-UCI HAR Dataset.zip", mode='wb')
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ", destfile = "getdata-projectfiles-UCI HAR Dataset.zip", mode='wb')
 
-#unzip("getdata-projectfiles-UCI HAR Dataset.zip" , exdir = ".")
+unzip("getdata-projectfiles-UCI HAR Dataset.zip" , exdir = ".")
 
 
 #########################################################################################################
