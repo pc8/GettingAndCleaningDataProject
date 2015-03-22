@@ -69,7 +69,7 @@ This paragraph lists the different steps to transform the raw data set to the ti
 
 9. Group by "Subject_ID" and "Activity_name", then calculate for each variable the mean value. 
 
-10. Write result to tidy_data.txt.
+10. Write result to `tidy_data.txt`.
 
 
 ### Output (tidy) data 
@@ -82,7 +82,7 @@ It is tidy according to the definition in [Hadley Wickham's paper "Tidy Data"](h
 2. Each observation forms a row.
 3. Each type of observational unit forms a table.
 
-The data set has following dimensions **180 observations of 68 variables**
+The tidy data set has following dimensions: **180 observations of 68 variables**
 
 #### List of variables
 
@@ -162,7 +162,7 @@ The 68 variables of the tidy data set are as follows:
 
 #### Description of variables
 
-This is an extract of the `features_info.txt` included in the [raw data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) with some adapations (*in italics*) on the variable names due to their modifications for the sake of readibility. Please refer to that document for a complete view. 
+This is an extract of the `features_info.txt` included in the [raw data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) with some adaptations (*in italics*) on the variable names due to their modifications for the sake of readibility. Please refer to that document for a complete view. 
 
 
 > The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (*time-body acceleration-XYZ and time-gravity acceleration-XYZ*) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
