@@ -55,17 +55,17 @@ This paragraph lists the different steps to transform the raw data set to the ti
 
 8. Renaming variables
 
-The original variable names were modified to be more descriptive/readable. More precisely, abbreviations were written out and parenthesis removed:
-
-| original parts of variable name | modified parts of variable name |
-| ------------------------------- | ------------------------------- |
-| t | time |
-| f | frequency |
-| Acc | acceleration |
-| Gyro | gyroscope |
-| Mag | magnitude |
-| mean() | mean |
-| std() | std deviation |
+    The original variable names were modified to be more descriptive/readable. More precisely, abbreviations were written out and parenthesis removed:
+    
+    | original parts of variable name | modified parts of variable name |
+    | ------------------------------- | ------------------------------- |
+    | t | time |
+    | f | frequency |
+    | Acc | acceleration |
+    | Gyro | gyroscope |
+    | Mag | magnitude |
+    | mean() | mean |
+    | std() | std deviation |
 
 9. Group by "Subject_ID" and "Activity_name", then calculate for each variable the mean value. 
 
