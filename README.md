@@ -50,8 +50,19 @@ See the [code book](https://github.com/pc8/GettingAndCleaningDataProject/blob/ma
 #### Dependencies
 
 The script requires two R packages:
+
 * `scriptr`
 * `dplyr`
 
+To install these packages you want to use:
+
+```
+install.packages("scriptr")
+install.packages("dpylr")
+```
+
+### References
+
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
