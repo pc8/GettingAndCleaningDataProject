@@ -43,9 +43,15 @@ Following files of the [raw data set](https://d396qusza40orc.cloudfront.net/getd
 
 #### Output
 
-The output of the script is a text file `tidydata.txt`.
+The output of the script is a text file `tidydata.txt`. The text file contains a tidy data set in the "wide" form. 
 
-See the [code book](https://github.com/pc8/GettingAndCleaningDataProject/blob/master/codebook.md) for further details.  
+The data set is tidy according to the definition in [Hadley Wickham's paper "Tidy Data"](http://vita.had.co.nz/papers/tidy-data.pdf):
+
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+
+See the [code book](https://github.com/pc8/GettingAndCleaningDataProject/blob/master/codebook.md) for information on the transformation steps from raw to tidy data sets and other details.  
 
 #### Dependencies
 
